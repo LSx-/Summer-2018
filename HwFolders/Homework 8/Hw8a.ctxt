@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Hw8a
+comment0.text=\r\n\ Hw8a\ will\ is\ a\ deriv\ and\ a\ antiDeriv\ program\ with\r\n\ Sin\ and\ Cos.\ We\ will\ take\ the\ input\ from\ the\ user\r\n\ (just\ 1\ line)\ and\ then\ we\ will\ split\ the\ input\ string\r\n\ and\ give\ back\ the\ deriv\ and\ the\ anti\ deriv\ as\ the\ output\r\n\r\n\ @author\ Michael\ Castillo\r\n\ @version\ 1.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

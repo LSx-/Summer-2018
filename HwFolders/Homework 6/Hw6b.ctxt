@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Hw6b
+comment0.text=\r\n\ Hw6B\ is\ the\ Sigma\ program,\ the\ Sigma\ program\ will\ take\ \r\n\ inputs\ from\ the\ user\ for\ the\ \ function\ (in\ a\ string)\r\n\ the\ starting\ point\ as\ an\ int\ and\ the\ end\ point\ as\ an\ int\r\n\ (no\ doubles\ this\ time\ around)\ and\ at\ the\ end\ we\ will\ print\ out\ the\r\n\ total\ which\ will\ be\ put\ as\ S\r\n\r\n\ @author\ Michael\ Castillo\r\n\ @version\ 1.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

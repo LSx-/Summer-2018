@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Hw1a
+comment0.text=\r\n\ This\ Program\ will\ be\ used\ to\ run\ 2D\r\n\ Pythagoream\ Theorm.\ This\ will\ take\ inputs\r\n\ via\ a\ Scanner\ and\ it\ and\ plug\ it\ into\ all\ the\r\n\ 2D\ points\ (aka\ the\ Variables).\ and\ with\ that\ information\ it\ will\ get\ the\ vector\r\n\ and\ the\ distance.\r\n\r\n\ @author\ Michael\ Castillo\r\n\ @version\ 1.0\ \r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

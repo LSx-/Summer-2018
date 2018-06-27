@@ -1,0 +1,83 @@
+Welcome to Hw2A
+
+
+
+Please Enter a Number for the length
+
+6
+
+
+
+Please Enter a Number for the Angle (Degrees)
+
+42
+
+
+
+Your Vector is: <4.458868952864366,4.014783638153149>
+
+
+
+
+
+
+Welcome to Hw2B
+
+
+
+Please Enter a Number for delta X
+
+4.45
+
+
+
+Please Enter a Number for delta Y
+4.01
+
+
+
+Your Length is: 5.990208677500308
+
+Your angle is: 42.02276018917907 Degrees
+
+
+
+
+
+
+Welcome to Hw2C
+
+
+
+Please Enter a Number for the Starting point X
+
+1
+
+
+
+Please Enter a Number for the Starting point Y
+
+3
+
+
+
+Please Enter a Number for how fast you want to go (Pixels per sec)
+
+20
+
+
+
+Please Enter a Number for the angle you wish to go in
+
+45
+
+
+
+Please Enter a number for how long you want to go
+
+3
+
+
+
+The end point is: (43.42640687119285,45.426406871192846)
+

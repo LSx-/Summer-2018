@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Hw2a
+comment0.text=\r\n\ in\ this\ project\ we\ will\ make\ the\ user\ input\ a\ length\ (d)\ and\ a\ angle\ (Theta)\r\n\ and\ with\ that\ information\ we\ will\ calulate\ and\ print\ the\ information\ needed\r\n\ to\ let\ the\ user\ know\ what\ there\ Vector\ is\r\n\r\n\ @author\ Michael\ Castillo\r\n\ @version\ 1.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

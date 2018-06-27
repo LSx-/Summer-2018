@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Hw9
+comment0.text=\r\n\ Hw9\ is\ the\ sin(x)\ program\!\r\n\ we\ will\ have\ the\ user\ give\ us\ the\ number\r\n\ for\ x\ by\ having\ them\ input\ the\ number\!\r\n\ \r\n\ after\ we\ do\ that\ we\ will\ give\ them\ and\ approx.\r\n\ and\ under\ that\ we\ will\ have\ the\ exact\ number\ of\r\n\ there\ sin(x)\ by\ doing\ Math.sin(x)\r\n\r\n\ @author\ Michael\ Castillo\r\n\ @version\ 1.0\r\n
+comment1.params=p
+comment1.target=int\ Factorial(int)
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3

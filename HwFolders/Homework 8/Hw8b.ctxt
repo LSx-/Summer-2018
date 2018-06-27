@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Hw8b
+comment0.text=\r\n\ Hw8b\ is\ a\ program\ where\ we\ will\ see\ if\ the\ input\ has\ a\ antiDerivative\ form\!\r\n\ we\ will\ take\ the\ input\ of\ a\ Derivied\ function\ and\ then\ see\ if\ it\ can\ go\ backwards\r\n\ the\ function\ must\ contain\ a\ cos\ or\ sin\ for\ it\ to\ work,\ once\ supplied\ with\ one\ \r\n\ we\ see\ if\ it\ has\ a\ form\ and\ let\ them\ know\ what\ the\ form\ is\r\n\r\n\ @author\ Michael\ Castillo\r\n\ @version\ 1.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Hw3b
+comment0.text=\r\n\ Hw3b\ is\ a\ program\ that\ helps\ out\ with\ shadow\ vectors\!\r\n\ they\ user\ will\ input\ the\ V\ vector\ and\ the\ G\ vector\ so\ that\ we\ can\ get\ a\ \r\n\ shadow\ vector\ and\ a\ disctance\ (A)\r\n\r\n\ @author\ Michael\ Castillo\r\n\ @version\ 1.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

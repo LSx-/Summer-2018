@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Hw3a
+comment0.text=\r\n\ Hw3a\ is\ a\ program\ that\ will\ take\ inputs\ from\ the\ user\ and\ do\ the\ \r\n\ dot\ product\ from\ multivariable\ math\!\ it\ will\ do\ the\ calculations,\r\n\ and\ then\ give\ out\ the\ results\ from\ the\ dot\ product,\ but\ also\ the\ \r\n\ Cos\ of\ Theta,\ the\ Sin\ of\ Theta,\ and\ the\ Cos\ of\ Theta\ again,\r\n\ but\ this\ time\ in\ degrees\ for\ the\ user\ to\ understand\r\n\r\n\ @author\ Michael\ Casitllo\r\n\ @version\ 1.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

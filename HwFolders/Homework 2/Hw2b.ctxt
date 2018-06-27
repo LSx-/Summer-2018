@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Hw2b
+comment0.text=\r\n\ In\ this\ program\ we\ will\ be\ taking\ information\ from\ the\ user,\ the\ information\r\n\ that\ will\ be\ taken\ is\ Delta\ x\ and\ Delta\ y(\ or\ v1\ and\ v2).\ and\ with\ that\r\n\ information\ we\ will\ be\ giving\ back\ the\ user\ the\ length\ (d)\ and\ the\ angle\ (Theta)\r\n\r\n\ @author\ Michael\ Castillo\r\n\ @version\ 1.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

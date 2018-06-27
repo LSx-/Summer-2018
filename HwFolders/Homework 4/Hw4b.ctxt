@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Hw4b
+comment0.text=\r\n\ Hw4b\ is\ a\ program\ that\ will\ take\ inputs\ from\ a\ user\ via\ a\ Scanner.\r\n\ once\ the\ user\ inputs\ the\ Vector\ (s1,s2)\ and\ a\ point\ (p1,p2),\r\n\ we\ will\ then\ ask\ them\ to\ input\ the\ a\ point(r1,r2)\ that\ they\ would\ like\ to\ check\ for\!\r\n\r\n\ after\ all\ the\ inputs\ the\ program\ will\ then\ calculate\ it\r\n\ T\ will\ only\ go\ up\ to\ 10\ (from\ 0)\r\n\r\n\ @author\ Michael\ Castillo\r\n\ @version\ 1.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

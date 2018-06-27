@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Hw7c
+comment0.text=\r\n\ Hw7C\ is\ the\ area\ Program\ but\ to\ an\ exact\ number\!\r\n\ here\ we\ will\ take\ a\ function,\ start\ point,\ and\ end\ point\ from\ the\ user\r\n\ after\ all\ of\ that\ we\ will\ do\ the\ area\ program\ but\ all\ with\ \r\n\ anti-derivative\ helping\ us\ out\!\ to\ get\ a\ more\ exact\ number\r\n\r\n\ @author\ Michael\ Castillo\r\n\ @version\ 1.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

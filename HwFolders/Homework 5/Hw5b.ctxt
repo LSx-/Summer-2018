@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Hw5b
+comment0.text=\r\n\ Hw5b\ is\ the\ point\ of\ intersection\ program.\r\n\ the\ user\ will\ input\ 10\ different\ values.\ with\ those\ values\r\n\ we\ will\ do\ some\ calculations\ to\ get\ the\ point\ of\ intersection\r\n\ and\ print\ out\ that\ info\r\n\r\n\ @author\ Michael\ Castillo\r\n\ @version\ 1.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

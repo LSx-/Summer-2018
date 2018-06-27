@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Hw4c
+comment0.text=\r\n\ Hw4c\ is\ actually\ a\ program\ for\ the\ Cross\ product\r\n\ in\ Multivariable\ Math\!\ We\ will\ take\ the\ input\ from\ the\ user\ for\r\n\ v1,v2,v3,w1,w2\ and\ w3.\ after\ taking\ all\ the\ information,\ we\ will\ then\ \r\n\ turn\ that\ into\ vectors\ for\ i,j,and\ k.\ after\ we\ do\ the\ calculations\ for\r\n\ i,j,\ and\ k,\ we\ will\ turn\ it\ into\ 1\ big\ vector\ called\ n\r\n\r\n\ @author\ Michael\ Castillo\r\n\ @version\ 1.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

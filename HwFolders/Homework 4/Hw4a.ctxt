@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Hw4a
+comment0.text=\r\n\ Hw4a\ is\ a\ program\ that\ will\ take\ inputs\ from\ the\ user\ via\ a\ scanner\r\n\ that\ will\ fill\ in\ point\ P\ (p1,p2)\ and\ Q\ (q1,q2).\ with\ that\ information\r\n\ we\ will\ make\ the\ program\ calculate\ the\ points\ to\ get\ the\ vector\ and\ then\ with\r\n\ that\ vector\ we\ will\ get\ points\ on\ a\ line\ when\ we\ do\ a\ for\ loop\ for\ T\r\n\ \r\n\ also\ P\ will\ always\ be\ the\ point\ we\ use\ when\ doing\ the\ calculations\ (for\ now)\r\n\r\n\ @author\ Michael\ Castillo\r\n\ @version\ 1.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

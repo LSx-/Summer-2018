@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Hw7b
+comment0.text=\r\n\ Hw7b\ is\ the\ Anti-Derivative\ Program\!\r\n\ we\ will\ take\ only\ 1\ input\ from\ the\ user\!\r\n\ after\ we\ take\ there\ input\ we\ will\ then\ split\ it\r\n\ and\ take\ out\ the\ "*x^"\ and\ put\ the\ numbers\ in\ an\ array\r\n\ after\ that\ we\ will\ parse\ them\ out\ of\ the\ array\ and\ do\ the\ \r\n\ math\ needed\ to\ get\ out\ right\ answer\r\n\r\n\ @author\ Michael\ Castillo\r\n\ @version\ 1.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
