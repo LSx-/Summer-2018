@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Matrix2
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Hw13\ here.\r\n\r\n\ @author\ Michael\ Castillo\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=Matrix2()
+comment1.text=\r\n\ The\ 'Blank'\ Constructor\ for\ class\ Matrix2\r\n
+comment2.params=A\ B\ C\ D
+comment2.target=Matrix2(double,\ double,\ double,\ double)
+comment2.text=\r\n\ The\ filled\ perameter\ Constructor\ for\ Matrix2\r\n
+comment3.params=i
+comment3.target=Vector2\ getRow(int)
+comment3.text=\r\n\ \r\n
+comment4.params=v
+comment4.target=Vector2\ multiplyVector(Vector2)
+comment4.text=\r\n\ \r\n
+numComments=5
