@@ -51,26 +51,49 @@ public class Matrix3
     }
     
     /**
-     * how we will put the Vectors into Rows
+     * how we will put the Matrix into Rows via Vectors
      */
-    public Vector3 getRow(int i)
+    public Vector3 getRow(int j)
     {
-        if(i == 1)
+        if(j == 1)
         {
             return new Vector3(a,b,c);
         }
         
-        if(i == 2)
+        if(j == 2)
         {
-            return new Vector3(c,d,e);
+            return new Vector3(d,e,f);
         }
         
-        if(i == 3)
+        if(j == 3)
         {
             return new Vector3(g,h,i);
         }
         
-        return new Vector3(0,0,1);
+        return null;
+    }
+    
+    /**
+     * here we will put the Matrix into Columns via Vectors
+     */
+    public Vector3 getColumn(int j)
+    {
+        if(j == 1)
+        {
+            return new Vector3(a,d,g);
+        }
+        
+        if(j == 2)
+        {
+            return new Vector3(b,e,h);
+        }
+        
+        if(j == 3)
+        {
+            return new Vector3(c,f,i);
+        }
+        
+        return null;
     }
     
     /**
@@ -78,6 +101,49 @@ public class Matrix3
      */
     public Vector3 multiplyVector(Vector3 v)
     {
-        return new Vector3(this.getRow(1).dot(v), this.getRow(2).dot(v), this.getRow(3).dot(v));
+        return new Vector3(this.getRow(1).dot(v), 
+                           this.getRow(2).dot(v), 
+                           this.getRow(3).dot(v));
+    }
+    
+    /**
+     * 
+     */
+    public static Matrix3 makeTransform(double angle, double p, double q)
+    {
+        double rad = angle * ((2*Math.PI)/360);
+        double a = Math.cos(rad);
+        double b = -Math.sin(rad);
+        double c = Math.sin(rad);
+        double d = Math.cos(rad);
+        
+        return new Matrix3(a,b,p,c,d,q,0,0,1);
+    }
+    
+    /**
+     * here we will be Multiplying the Matrices
+     */
+    public Matrix3 multiplyMatrix(Matrix3 other)
+    {
+        return new Matrix3(this.getRow(1).dot(other.getColumn(1)),
+                           this.getRow(1).dot(other.getColumn(2)),
+                           this.getRow(1).dot(other.getColumn(3)),
+                           this.getRow(2).dot(other.getColumn(1)),
+                           this.getRow(2).dot(other.getColumn(2)),
+                           this.getRow(2).dot(other.getColumn(3)),
+                           this.getRow(3).dot(other.getColumn(1)),
+                           this.getRow(3).dot(other.getColumn(2)),
+                           this.getRow(3).dot(other.getColumn(3)));
+                           
+    }
+    
+    public void print()
+    {
+       System.out.println("--------------");
+       System.out.println(a + ", " + b + ", " + c);
+       System.out.println(d + ", " + e + ", " + f);
+       System.out.println(g + ", " + h + ", " + i);
+       System.out.println("--------------");
+       
     }
 }

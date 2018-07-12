@@ -50,7 +50,7 @@ public class Matrix2
             return new Vector2(c,d);
         }
         
-        return new Vector2(0,1);
+        return null;
     }
     
     /**

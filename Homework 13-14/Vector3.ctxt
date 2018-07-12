@@ -1,13 +1,15 @@
 #BlueJ class context
 comment0.target=Vector3
-comment0.text=\r\n\ The\ Vector\ class\ was\ made\ to\ work\ with\ the\ martix3\ class\r\n\ and\ to\ help\ HW14C\ function\r\n\r\n\ @author\ Michael\ Castillo\r\n\ @version\ (1.0)\r\n
+comment0.text=\n\ The\ Vector\ class\ was\ made\ to\ work\ with\ the\ martix3\ class\n\ and\ to\ help\ HW14C\ function\n\n\ @author\ Michael\ Castillo\n\ @version\ (1.0)\n
 comment1.params=
 comment1.target=Vector3()
-comment1.text=\r\n\ The\ 'blank'\ Constructor\ for\ class\ Vector2\r\n
+comment1.text=\n\ The\ 'blank'\ Constructor\ for\ class\ Vector2\n
 comment2.params=X\ Y\ Z
 comment2.target=Vector3(double,\ double,\ double)
-comment2.text=\r\n\ The\ filled\ perameter\ Constructor\ for\ class\ Vector2\r\n
+comment2.text=\n\ The\ filled\ perameter\ Constructor\ for\ class\ Vector2\n
 comment3.params=other
 comment3.target=double\ dot(Vector3)
-comment3.text=\r\n\ This\ is\ the\ dot\ formula\!\r\n\ how\ the\ dot\ product\ works\:\r\n\ V\ (dot)\ W\ \=\ (v1*w1)\ +\ (v2*w2)\ +\ (v3*w3);\r\n
-numComments=4
+comment3.text=\n\ This\ is\ the\ dot\ formula\!\n\ how\ the\ dot\ product\ works\:\n\ V\ (dot)\ W\ \=\ (v1*w1)\ +\ (v2*w2)\ +\ (v3*w3);\n
+comment4.params=
+comment4.target=void\ print()
+numComments=5

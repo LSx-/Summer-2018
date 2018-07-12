@@ -43,5 +43,10 @@ public class Vector3
     {
         return (this.x * other.x) + (this.y * other.y) + (this.z * other.z);
     }
+    
+    public void print()
+    {
+       System.out.println("[" + x + ", " + y + "]");   
+    }
 }
 
