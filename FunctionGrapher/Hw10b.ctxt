@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Hw10b
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=mainStage
+comment2.target=void\ start(javafx.stage.Stage)
+comment3.params=p
+comment3.target=Point\ mathToCanvas(Point)
+comment4.params=mathPoint\ context\ pointColor\ pointSize
+comment4.target=void\ graphPoint(Point,\ javafx.scene.canvas.GraphicsContext,\ javafx.scene.paint.Color,\ int)
+numComments=5

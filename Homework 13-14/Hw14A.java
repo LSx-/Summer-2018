@@ -1,33 +1,32 @@
-
+import java.util.Scanner;
 /**
  * Write a description of class Hw14A here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Michael Castillo
+ * @version 1.0
  */
-public class Hw14A
+public class Hw14a
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Hw14A
-     */
-    public Hw14A()
+    public static void main(String args[])
     {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+        Scanner scan = new Scanner(System.in);
+        double x;
+        double y;
+        double angle;
+        
+        //the welcome message
+        System.out.println("Welcome to the 2D Matrix Program!");
+        System.out.println();
+        
+        //here we will have the statements to get the inputs
+        System.out.println("Please Enter a Number for point X");
+        x = scan.nextDouble();
+        
+        System.out.println("Please Enter a NUmber for point Y");
+        y = scan.nextDouble();
+        
+        System.out.println("Please Enter a Number for the Angle");
+        angle = scan.nextDouble();
+        
     }
 }

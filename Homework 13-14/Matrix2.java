@@ -1,6 +1,6 @@
 
 /**
- * Write a description of class Hw13 here.
+ * The Matrix2 Class is made for homework 14A
  *
  * @author Michael Castillo
  * @version 1.0
@@ -36,7 +36,7 @@ public class Matrix2
     }
     
     /**
-     * 
+     * how we will put the Vectors into Rows
      */
     public Vector2 getRow(int i)
     {
@@ -54,7 +54,7 @@ public class Matrix2
     }
     
     /**
-     * 
+     *  how we will be Multiplying the Vectors
      */
     public Vector2 multiplyVector(Vector2 v)
     {

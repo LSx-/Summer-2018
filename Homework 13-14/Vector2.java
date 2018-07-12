@@ -1,9 +1,10 @@
 
 /**
- * Write a description of class Vector2 here.
+ * The Vector class was made to work with the martix2 class
+ * and to help HW14A function
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Michael Castillo
+ * @version (1.0)
  */
 public class Vector2
 {
@@ -12,7 +13,7 @@ public class Vector2
     double y;
 
     /**
-     * Constructor for objects of class Vector2
+     * The 'blank' Constructor for class Vector2
      */
     public Vector2()
     {
@@ -20,14 +21,22 @@ public class Vector2
         x = 0;
     }
     
+    /**
+     * The filled perameter Constructor for class Vector2
+     */
     public Vector2(double X, double Y)
     {
         x = X;
         y = Y;
     }
     
+    /**
+     * This is the dot formula!
+     * how the dot product works:
+     * V (dot) W = (v1*w1) + (v2*w2)
+     */
     double dot (Vector2 other)
     {
-        return 1;
+        return (this.x * other.x) + (this.y * other.y);
     }
 }

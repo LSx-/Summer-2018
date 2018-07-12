@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Hw14C
+public class Hw14c
 {
     // instance variables - replace the example below with your own
     private int x;
@@ -13,7 +13,7 @@ public class Hw14C
     /**
      * Constructor for objects of class Hw14C
      */
-    public Hw14C()
+    public Hw14c()
     {
         // initialise instance variables
         x = 0;

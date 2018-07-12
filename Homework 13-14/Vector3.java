@@ -1,33 +1,47 @@
 
 /**
- * Write a description of class Vector3 here.
+ * The Vector class was made to work with the martix3 class
+ * and to help HW14C function
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Michael Castillo
+ * @version (1.0)
  */
 public class Vector3
 {
     // instance variables - replace the example below with your own
-    private int x;
+    double x;
+    double y;
+    double z;
 
     /**
-     * Constructor for objects of class Vector3
+     * The 'blank' Constructor for class Vector2
      */
     public Vector3()
     {
         // initialise instance variables
         x = 0;
+        y = 0;
+        z = 1;
     }
-
+    
     /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * The filled perameter Constructor for class Vector2
      */
-    public int sampleMethod(int y)
+    public Vector3(double X, double Y, double Z)
     {
-        // put your code here
-        return x + y;
+        x = X;
+        y = Y;
+        z = Z;
+    }
+    
+    /**
+     * This is the dot formula!
+     * how the dot product works:
+     * V (dot) W = (v1*w1) + (v2*w2) + (v3*w3);
+     */
+    double dot (Vector3 other)
+    {
+        return (this.x * other.x) + (this.y * other.y) + (this.z * other.z);
     }
 }
+

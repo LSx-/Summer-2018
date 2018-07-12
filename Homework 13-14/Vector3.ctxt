@@ -1,10 +1,13 @@
 #BlueJ class context
 comment0.target=Vector3
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Vector3\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ The\ Vector\ class\ was\ made\ to\ work\ with\ the\ martix3\ class\r\n\ and\ to\ help\ HW14C\ function\r\n\r\n\ @author\ Michael\ Castillo\r\n\ @version\ (1.0)\r\n
 comment1.params=
 comment1.target=Vector3()
-comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Vector3\r\n
-comment2.params=y
-comment2.target=int\ sampleMethod(int)
-comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
-numComments=3
+comment1.text=\r\n\ The\ 'blank'\ Constructor\ for\ class\ Vector2\r\n
+comment2.params=X\ Y\ Z
+comment2.target=Vector3(double,\ double,\ double)
+comment2.text=\r\n\ The\ filled\ perameter\ Constructor\ for\ class\ Vector2\r\n
+comment3.params=other
+comment3.target=double\ dot(Vector3)
+comment3.text=\r\n\ This\ is\ the\ dot\ formula\!\r\n\ how\ the\ dot\ product\ works\:\r\n\ V\ (dot)\ W\ \=\ (v1*w1)\ +\ (v2*w2)\ +\ (v3*w3);\r\n
+numComments=4

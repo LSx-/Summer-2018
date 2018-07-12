@@ -1,8 +1,8 @@
 #BlueJ class context
-comment0.target=Hw14C
+comment0.target=Hw14c
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ Hw14C\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=
-comment1.target=Hw14C()
+comment1.target=Hw14c()
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Hw14C\r\n
 comment2.params=y
 comment2.target=int\ sampleMethod(int)
