@@ -47,6 +47,10 @@ public class Project2 extends Application
         Scanner scan = new Scanner(System.in);
         String x;
         String y;
+        String z;
+        String axis;
+        double tRange;
+        
         
         mainStage.setTitle("Function Grapher");
 
@@ -136,21 +140,21 @@ public class Project2 extends Application
 
         root.setCenter(centerBox);
 
-        Canvas canvas = new Canvas(800,800);
+        Canvas canvas = new Canvas(400,400);
         GraphicsContext context = canvas.getGraphicsContext2D();
         context.setFill( Color.GRAY );
-        context.fillRect(0,0, 800,800);
+        context.fillRect(0,0, 400,400);
 
         centerBox.getChildren().addAll( canvas );
 
         // fill background
         context.setFill(Color.CYAN);
-        context.fillRect(0,0, 800,800);
+        context.fillRect(0,0, 400,400);
 
         // draw axes
         context.setStroke(Color.NAVY);
-        context.strokeLine(0,400, 800,400);
-        context.strokeLine(400,0, 400,800);
+        context.strokeLine(0,200, 400,200);
+        context.strokeLine(200,0, 200,400);
 
         /*
          * calculate x
@@ -182,8 +186,8 @@ public class Project2 extends Application
     public Point mathToCanvas(Point p)
     {
         Point c = new Point();
-        c.x = 800.0 / 10.0 * p.x + 400;
-        c.y = -800.0 / 10.0 * p.y + 400;
+        c.x = 400.0 / 20.0 * p.x + 200;
+        c.y = -400.0 / 20.0 * p.y + 200;
         return c;
     }
 
