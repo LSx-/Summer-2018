@@ -57,13 +57,77 @@ public class Project2 extends Application
         // -----------------------------
         root.setStyle( "-fx-font-size: 20" );
 
-        //adding the new Vbox for all labels and textfields
+        //adding the new Vbox for all the HBoxes
         VBox topBox = new VBox();
         topBox.setSpacing(10);
         topBox.setAlignment(Pos.CENTER);
         
         Label example = new Label("f(t) = <x(t),y(t),z(t)>");
-        example.
+        
+        root.setTop(topBox);
+        
+        //first HBox with a label and textfield (x(t))
+        HBox xBox = new HBox();
+        xBox.setSpacing(10);
+        xBox.setAlignment(Pos.CENTER);
+        
+        Label xLabel = new Label("x(t) = ");
+        TextField xField = new TextField("");
+        
+        xBox.getChildren().addAll(xLabel, xField);
+        
+        //second HBox with a label and textfield (y(t))
+        HBox yBox = new HBox();
+        yBox.setSpacing(10);
+        yBox.setAlignment(Pos.CENTER);
+        
+        Label yLabel = new Label("y(t) = ");
+        TextField yField = new TextField("");
+        
+        yBox.getChildren().addAll(yLabel, yField);
+        
+        //third HBox with a label and textfield (z(t))
+        HBox zBox = new HBox();
+        zBox.setSpacing(10);
+        zBox.setAlignment(Pos.CENTER);
+        
+        Label zLabel = new Label("z(t) = ");
+        TextField zField = new TextField("");
+        
+        zBox.getChildren().addAll(zLabel,zField);
+        
+        //fourth HBox with a label and textfield (t range)
+        HBox tBox = new HBox();
+        tBox.setSpacing(10);
+        tBox.setAlignment(Pos.CENTER);
+        
+        Label tLabel = new Label("t range = ");
+        TextField tField = new TextField("t");
+        
+        tBox.getChildren().addAll(tLabel,tField);
+        
+        //fifth HBox with a label and textfield (axis range)
+        HBox axisBox = new HBox();
+        axisBox.setSpacing(10);
+        axisBox.setAlignment(Pos.CENTER);
+        
+        Label axisLabel = new Label("axis range = ");
+        TextField axisField = new TextField("");
+        
+        axisBox.getChildren().addAll(axisLabel,axisField);
+        
+        //the sixth HBox with a label and textfield (camera z)
+        HBox camBox = new HBox();
+        camBox.setSpacing(10);
+        camBox.setAlignment(Pos.CENTER);
+        
+        Label camLabel = new Label("Camera z = ");
+        TextField camField = new TextField("");
+        
+        camBox.getChildren().addAll(camLabel,camField);
+        
+        //adding all the HBoxes into the VBox
+        topBox.getChildren().addAll(xBox,yBox,zBox,tBox,axisBox,camBox);
         
         //the old VBox stuff!
         VBox centerBox = new VBox();
@@ -95,7 +159,7 @@ public class Project2 extends Application
          */
         //Expression f1 = new ExpressionBuilder(x).variables("t").build();
         //Expression f2 = new ExpressionBuilder(y).variables("t").build();
-        
+        /*
         for (double t = -4; t < 4; t += 0.001)
         {
             double x1 = f1.setVariable("t", t).evaluate();
@@ -103,7 +167,7 @@ public class Project2 extends Application
             Point p = new Point(x1,y1);
             graphPoint(p, context, Color.BLACK, 3);
         }
-        
+        */
         double t = 1.5;
         double x2 = Math.pow(t,3) - 3*t;
         double y2 = Math.pow(t,4) - 4*t*t;
